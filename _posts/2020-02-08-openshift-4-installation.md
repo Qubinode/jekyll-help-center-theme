@@ -7,21 +7,8 @@ categories: openshift-installation
 by: 'Tosin Akinosho'
 icon: 'credit-card'
 ---
----
-layout: post
-title: "OpenShift 4.2 Cluster on a Single Node"
-description: "Follow these steps to deploy OpenShift 4.2 cluster on a single node. This deploys 3 masters and 3 computes."
-date:   2020-02-08 17:46:41 -0300
-categories: openshift-installation
-by: 'Tosin Akinosho'
-icon: 'credit-card'
----
-# Installing The Qubinode
-Rodrique Heron <rheron@rodhouse.org>
-v0.0, 2019-08-25
-:imagesdir: images
-:toc: preamble
-:homepage: https://github.com/Qubinode/qubinode-installer
+
+# Installing OpenShift 4 Using Qubinode
 
 This guide should get you up and running with qubinode.
 
@@ -33,7 +20,7 @@ The qubinode is a prescriptive installation of either Red Hat OpenShift Platform
 
 ## Installing Red Hat Enterprise Linux
 
-* [RHEL Installation Walkthrough](https://developers.redhat.com/products/rhel/hello-world#fndtn-rhel) Follow baremetal steps
+* *[RHEL Installation Walkthrough](https://developers.redhat.com/products/rhel/hello-world#fndtn-rhel)* - Follow baremetal steps
 * Get your developer subscription of RHEL
 * Download the RHEL 7.7 iso
 * From the software selection choose: Virtualization Host > Virtualization Platform
@@ -72,8 +59,9 @@ cd qubinode-installer/
 ```
 ./qubinode-installer
 ```
-### Select Option 1
-**This will perform the following**
+> Select Option 1
+
+**Option 1  will perform the following**
 * Configure server for KVM.
 * Deploy an idm server to be used as DNS.
 * Deploy OpenShift 4.

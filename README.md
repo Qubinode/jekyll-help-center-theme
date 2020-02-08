@@ -1,8 +1,8 @@
-# Jekyll | Help Center
-Simple and responsive Jekyll theme for help center.
+# Qubinode | Documetation Hub
+Qubinode Documentation hub website code
 
-# Demo
-[Demo online](https://gustavoquinalha.github.io/jekyll-help-center-theme/)
+# Website
+[Documentaion](https://gustavoquinalha.github.io/jekyll-help-center-theme/)
 
 ![Color Theme](http://quinalha.me/jekyll-help-center-theme/assets/img/readme/responsive.png)
 
@@ -12,10 +12,11 @@ edit in _config.yml
 color_theme:  "#0081ff"
 color_text:  "#fff"
 ```
+# How to contribute
 
 # Install
 ```
-git clone https://github.com/gustavoquinalha/jekyll-help-center-theme
+git clone https://github.com/Qubinode/jekyll-help-center-theme.git
 ```
 or
 ```

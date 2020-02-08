@@ -7,16 +7,17 @@ categories: openshift-installation
 by: 'Tosin Akinosho'
 icon: 'credit-card'
 ---
-
 # Installing OpenShift 4 Using Qubinode
 
 This guide should get you up and running with qubinode.
 
 # Introduction
+
 The qubinode is a prescriptive installation of either Red Hat OpenShift Platform or The Origin Community Distribution of Kubernetes.
 
 
 # Installing Red Hat Enterprise Linux
+
 * *[RHEL Installation Walkthrough](https://developers.redhat.com/products/rhel/hello-world#fndtn-rhel)* - Follow baremetal steps
 * Get your developer subscription of RHEL
 * Download the RHEL 7.7 iso
@@ -28,6 +29,7 @@ The qubinode is a prescriptive installation of either Red Hat OpenShift Platform
 
 
 # Prepare the system
+
 One RHEL has been installed on your system, ensure the system has internet connection. The qubinode-installer expects that your already have DHCP running in your environment for the purpose of supplying IP addresses for the VM nodes.
 
 **Login remotely to the Qubinode box as  as the qubinode admin user**
@@ -65,6 +67,7 @@ cd qubinode-installer/
 * Optional: Configure NFS Provisioner
 
 # Advanced installation
+
 ## Use this when you would like to step thru the installation process.
 **setup playbooks vars and user sudoers**  
 ```
@@ -123,6 +126,7 @@ and save it as /home/admin/qubinode-installer/pull-secret.txt
 ```
 
 # Deployment Post Steps
+
 ## How to access OpenShift Cluster
 * Option 1: Add dns server to /etc/resolv.conf on your computer.
   - Or run script found under lib/qubinode_dns_configurator.sh
